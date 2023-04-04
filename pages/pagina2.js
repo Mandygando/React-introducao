@@ -8,11 +8,9 @@ const pagina2 = () => {
   return (
         <>
         <Pagina/>
-        <Container>
         <h1>Pagina2</h1>
 
         <Rodape/>
-        </Container>
         </>
   )
 }
