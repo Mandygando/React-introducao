@@ -11,13 +11,11 @@ const array = () => {
 
   return (
     <>
-    <Pagina titulo="Array">
-
-    <ol>
-    {carros.map(item=>(
-      <li>{item}</li>
+    <Pagina titulo="Deputados">
+    
+    {deputados.map(item=>(
+      <p>{item}</p>
     ))}
-    </ol>
 
     </Pagina>
     </>
